@@ -93,6 +93,35 @@ multi-core-api-server/
 └── README.md
 ```
 
+WHERE THIS APP IS USEFUL:
+
+1. CPU-Intensive APIs
+If your app does heavy computation — like:
+Image/video processing
+Data crunching (e.g., PDF generation, large JSON transformation)
+Cryptographic operations
+AI inference (small-scale)
+Your setup ensures CPU-bound operations don’t block each other.
+
+2. High-Traffic REST APIs
+When handling thousands of concurrent users, clustering:
+Reduces bottlenecks
+Utilizes server hardware fully
+Offers graceful degradation (if 1 worker dies, others keep serving)
+Example: Public-facing APIs, e-commerce, analytics dashboards
+
+3. Microservices Gateway
+You can use this as a base template for:
+A service gateway that handles load balancing internally
+API aggregation service that coordinates with multiple microservices
+
+4. Backend Template for Production-Grade Systems
+This can be your go-to starter setup when:
+Bootstrapping any scalable Node.js service
+Teaching teammates how to build fault-tolerant apps
+Preparing for Kubernetes (this is a good transition step before full orchestration)
+
+
 ## 📝 License
 
 MIT
