@@ -1,5 +1,3 @@
-Here is a **production-ready README.md** for your Multi-Core API Server project, including a clear project description, usage instructions, and guidance on how and where you can use this as a backend template for future projects.
-
 # Multi-Core API Server with Clustering
 
 A robust, production-ready Express API server that utilizes all available CPU cores using Node.js clustering. This template is designed for high-performance, scalable, and reliable backend services, making it ideal for both standalone APIs and as a foundation for larger microservices architectures.
